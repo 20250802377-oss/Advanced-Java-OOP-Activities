@@ -16,8 +16,8 @@ public class Library {
             return;
         }
 
-        for (Book book : books) {
-            book.displayDetails();
+        for (LibraryItem item : books) {
+            item.displayDetails();
         }
     }
 

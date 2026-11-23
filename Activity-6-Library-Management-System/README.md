@@ -1,37 +1,35 @@
 # Activity 6 – Library Management System
 
 ## Objective
-To develop a Library Management System using Java and Object-Oriented Programming concepts.
-
-## Project Description
-This project is a menu-driven Java application that helps manage library books. It allows users to add, view, search, issue and return books.
+To develop a Library Management System using Java and OOP concepts.
 
 ## Features
-1. Add new books.
-2. View all available books.
-3. Search books using Book ID.
+1. Add books.
+2. View all books.
+3. Search books by ID.
 4. Issue books.
-5. Return issued books.
-6. Exit the application.
+5. Return books.
 
 ## OOP Concepts Used
-- Classes and Objects
-- Encapsulation
-- Constructors
-- Methods
-- ArrayList
-- Data Hiding
+- Encapsulation: Private variables in the Book class.
+- Inheritance: Book extends LibraryItem.
+- Abstraction: LibraryItem is an abstract class.
+- Interface: Book implements Borrowable.
+- Polymorphism: Library uses LibraryItem references to display Book details.
+- Collections: ArrayList stores books.
 
 ## Technologies Used
 - Java
-- Scanner class
-- ArrayList collection
+- Scanner
+- ArrayList
 - GitHub
 
-## Project Structure
+## Project Files
 - Book.java – Stores book details.
+- LibraryItem.java – Abstract parent class.
+- Borrowable.java – Interface for issuing and returning books.
 - Library.java – Handles library operations.
-- Main.java – Runs the menu-driven application.
+- Main.java – Runs the application.
 
 ## Conclusion
-Through this activity, I learned how to develop a Java application using classes, objects, encapsulation and collections. I also learned how to organize and maintain a project on GitHub.
+This project helped me understand important Java OOP concepts while developing a Library Management System.
